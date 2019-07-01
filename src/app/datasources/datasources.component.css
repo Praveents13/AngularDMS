@@ -1,0 +1,26 @@
+.dscontainer{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.menubar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+.searchParams{
+    display: flex;
+    margin-right: 1%;
+}
+.searchParams>div{
+    padding-right: 5%;
+}
+.searchParams>div>input{
+    padding-left:2%;
+}
+
+.datasourcesview{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:1%;
+}
