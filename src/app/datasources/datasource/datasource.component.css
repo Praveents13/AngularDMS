@@ -1,0 +1,28 @@
+.datasourceBoundary{
+    display: flex;
+    flex-direction: column;
+    border-width: 3px;
+    border-color: ghostwhite;
+    border-style: outset;
+    padding: 1%;
+    background-color: white;
+}
+
+.dsProprty{
+    display: flex;
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns: 35% 1% 55%;
+    justify-content: space-between;
+}
+
+.editIcon{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.editIcon>button{
+    padding: 0%;
+}

@@ -1,0 +1,27 @@
+<div class="dscontainer">
+  <div>
+    Datasources
+  </div>
+  <div>
+    <div class="menubar">
+      <div class="searchParams">
+        <div><input name="searchBox" id="searchBox" placeholder="Search..."></div>
+        <div><input name="sortBy" id="sortBy"></div>
+      </div>
+      <div class="dropdown">
+        <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Create Datasource
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">CSS</a></li>
+          <li><a href="#">JavaScript</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="datasourcesview" >
+    <div style="flex-basis: 32%" *ngFor="let datasource of datasources.elements">
+      <app-datasource [name]="datasource.name" [creator]="datasource.creator" [createdDate]="datasource.createdDate"></app-datasource>
+    </div>
+  </div>
+</div>
